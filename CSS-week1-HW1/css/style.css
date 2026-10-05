@@ -18,8 +18,9 @@ nav {
     width: 80%;
 }
 
+/* Đổi màu chữ liên kết sang trắng để đạt tương phản WAVE */
 nav a, nav a:visited {
-    color: #ffffff;
+    color: #ffffff !important;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -42,9 +43,10 @@ footer {
 }
 
 footer p, footer a, footer a:visited {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
+/* Comment out quy tắc cũ của li */
 /*
 li {
     display: inline-block;
