@@ -1,0 +1,24 @@
+/* ===================================================
+   TRUY VẤN PHƯƠNG TIỆN 1: Chế độ xem Máy tính bảng (Tablet View - 772px)
+   =================================================== */
+@media screen and (min-width: 772px) {
+    div {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+        margin: 1%;
+    }
+
+    img {
+        max-height: 30vh;
+    }
+}
+
+/* ===================================================
+   TRUY VẤN PHƯƠNG TIỆN 2: Chế độ xem Màn hình lớn (Large Screen View - 998px)
+   =================================================== */
+@media screen and (min-width: 998px) {
+    div {
+        width: 30%;
+    }
+}
